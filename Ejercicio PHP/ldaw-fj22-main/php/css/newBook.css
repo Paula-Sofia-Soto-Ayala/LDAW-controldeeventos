@@ -1,0 +1,28 @@
+#newBookForm{
+    width: 90%;
+}
+
+.ms-container .ms-list li.ms-elem-selectable,
+.ms-container .ms-list li.ms-selected {
+    color: #000000;
+}
+
+@media(min-width: 768px){
+
+    #newEntryForm{
+        width: 75%;
+    }
+
+}
+
+@media(min-width: 1200px){
+
+    #newBookForm{
+        width: 50%;
+    }
+
+}
+
+.categories-list {
+    font-size: 0.85rem;
+}

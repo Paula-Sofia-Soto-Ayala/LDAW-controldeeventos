@@ -1,0 +1,15 @@
+.books-container .card {
+    min-width: 20%;
+    max-width: 20%;
+    color: #000000;
+}
+
+.books-container .card .card-header {
+    background-color: var(--medium-bg);
+    color: var(--main-font-color);
+}
+
+.books-container .card img {
+    height: 200px;
+    object-fit: contain;
+}

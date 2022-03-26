@@ -1,0 +1,128 @@
+/*************************************************
+                LAYOUT PRINCIPAL
+**************************************************/
+
+:root {
+    --dark-bg: #032436;
+    --medium-bg: #113b51;
+    --light-bg: #477187;
+    --extra-light-bg: #6f90a2;
+    --main-font-color: #ffffff;
+    --income-color: #50948a;
+    --outcome-color: #ad6147;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+        "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-color: var(--light-bg);
+    color: var(--main-font-color);
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+header {
+    text-align: center;
+    padding: 0;
+}
+
+header h1 {
+    padding: 25px;
+    margin: 0;
+}
+
+main {
+    max-width: 90%;
+}
+
+@media(min-width: 768px) {
+
+    main {
+        max-width: 85%;
+    }
+
+}
+
+header {
+    background-color: var(--medium-bg);
+}
+
+main {
+    padding: 25px;
+}
+
+footer {
+    background-color: var(--dark-bg);
+    padding: 30px;
+    text-align: center;
+}
+
+.btn.btn-primary {
+    background-color: var(--dark-bg);
+    color: var(--main-font-color);
+    border-color: var(--extra-light-bg);
+}
+
+.btn.btn-primary:hover {
+    background-color: var(--medium-bg);
+}
+
+
+/*************************************************
+                  NAV BAR
+  **************************************************/
+
+nav.navbar-light {
+    padding: 0;
+    background-color: var(--dark-bg);
+    text-align: center;
+    border-top: 1px solid var(--light-bg);
+    z-index: 999;
+}
+
+nav.navbar-light ul.navbar-nav li a.nav-link:hover,
+nav.navbar-light ul.navbar-nav li a.nav-link.active,
+nav.navbar-light ul.dropdown-menu a.active,
+nav.navbar-light ul.dropdown-menu a:hover {
+    background-color: rgba(111,144,162, 0.2);
+    color: var(--main-font-color);
+}
+
+nav.navbar-light button.navbar-toggler {
+    background-color: var(--extra-light-bg);
+}
+
+nav.navbar-light button.navbar-toggler:focus {
+    box-shadow: 0 0 0 1px;
+}
+
+nav.navbar-light .navbar-brand,
+nav.navbar-light button.navbar-toggler,
+nav.navbar-light ul.navbar-nav li a.nav-link:hover,
+nav.navbar-light ul.navbar-nav li a.nav-link:focus,
+nav.navbar-light ul.navbar-nav li a.nav-link,
+nav.navbar-light ul.dropdown-menu a {
+    color: var(--main-font-color);
+}
+
+nav.navbar-light ul.dropdown-menu {
+    background-color: var(--medium-bg);
+}
+
+nav.navbar-light ul.dropdown-menu a {
+    color: var(--main-font-color);   
+}
+
+/*************************************************
+                  TERMINA NAV BAR
+  **************************************************/
+
+main h2 {
+    text-align: center;
+}
